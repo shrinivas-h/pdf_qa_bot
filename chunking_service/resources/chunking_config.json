@@ -1,0 +1,23 @@
+{
+    "strategy": "pdf_to_text",
+    "chunk_size": 1200,
+    "chunk_overlap": 0,
+    "separators": ["\n\n", ". \n", ".\n", ". "],
+
+    "prompt": "Extract all the data from the image. The format of the data should be string only containing image text only and nothing else (like context, question, answer).",
+    "llm_service": "OPENAI",
+
+    "OPENAI_details": {
+             "LLM_Model": "sz-north-dev-gpt-4-vision",
+             "temperature": 0.2
+        },
+    "GCP_details": {
+            "LLM_Model": "gemini-1.5-pro-preview-0409",
+            "project_id": "sprih-geminiai-422806",
+            "credential_path": "gemini_credential.json",
+            "location": "us-east1",
+            "temperature": 0.2
+    }
+
+
+}

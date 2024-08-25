@@ -1,0 +1,18 @@
+{
+    "model_type": "BAAI",
+
+    "embedding_models": {
+        "OPEN_AI": {
+            "model_name": "text-embedding-3-large"
+        },
+        "BAAI": {
+            "model_name": "BAAI/bge-base-en-v1.5",
+            "model_kwargs": {
+                "device": "cpu"
+            },
+            "encode_kwargs": {
+                "normalize_embeddings": true
+            }
+        }
+    }
+}

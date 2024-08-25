@@ -1,0 +1,88 @@
+[
+    {
+        "llm_key": "AZ_gpt4o",
+        "llm_provider": "AZURE",
+        "model_type": "multi_model",
+        "details": {
+            "llm_model": "sprih-gpt-4o",
+            "temperature": 0,
+            "chain_type": "stuff"
+        }
+    },
+    {
+        "llm_key": "AZ_gpt4o",
+        "llm_provider": "AZURE",
+        "model_type": "text_based",
+        "details": {
+            "llm_model": "sprih-gpt-4o",
+            "temperature": 0,
+            "chain_type": "stuff"
+        }
+    },
+    {
+        "llm_key": "OP_gpt3.5t",
+        "llm_provider": "OPENAI",
+        "model_type": "text_based",
+        "details": {
+            "llm_model": "gpt-3.5-turbo-instruct",
+            "temperature": 0,
+            "chain_type": "stuff"
+        }
+    },
+    {
+        "llm_key": "AZ_sp_gpt35t",
+        "llm_provider": "AZURE",
+        "model_type": "text_based",
+        "details": {
+            "llm_model": "sprih-dev-gpt-35-turbo-instruct",
+            "chain_type": "stuff",
+            "temperature": 0
+        }
+    },
+    {
+        "llm_key": "AZ_gpt4v",
+        "llm_provider": "AZURE",
+        "model_type": "multi_model",
+        "details": {
+            "llm_model": "sz-north-dev-gpt-4-vision",
+            "temperature": 0,
+            "chain_type": "stuff"
+        }
+    },
+    {
+        "llm_key": "AZ_gpt4",
+        "llm_provider": "AZURE",
+        "model_type": "text_based",
+        "details": {
+            "llm_model": "sprih-sz-north-dev-gpt-4",
+            "chain_type": "stuff",
+            "temperature": 0
+        }
+    },
+    {
+        "llm_key": "GCP_gemini_1.5",
+        "llm_provider": "GCP",
+        "model_type": "multi_model",
+        "details": {
+            "llm_model": "gemini-1.5-pro-001",
+            "project_id": "sprih-geminiai-422806",
+            "credential_path": "gemini_credential2.json",
+            "location": "us-east1",
+            "chain_type": "stuff",
+            "temperature": 0
+        }
+    },
+    {
+        "llm_key": "GCP_gemini_1.5",
+        "llm_provider": "GCP",
+        "model_type": "text_based",
+        "details": {
+            "llm_model": "gemini-1.5-pro-001",
+            "project_id": "sprih-geminiai-422806",
+            "credential_path": "gemini_credential2.json",
+            "location": "us-east1",
+            "chain_type": "stuff",
+            "temperature": 0
+        }
+    }
+]

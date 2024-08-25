@@ -1,0 +1,7 @@
+DOCUMENT_PATH = "document_path"
+MAX_PAGES = "max_pages"
+QUESTIONS_PATH = "questions_path"
+API_KEY = "api_key"
+MODEL = "model"
+SLACK_TOKEN = "slack_token"
+SLACK_CHANNEL = "slack_channel"

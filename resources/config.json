@@ -1,0 +1,13 @@
+{
+    "document_path": "resources/handbook.pdf",
+    "questions_path": "resources/questions.json",
+
+    "model": "gpt-4o-mini",
+    "api_key": "",
+
+    "slack_token": "",
+    "slack_channel": "",
+
+    "max_pages": 5,
+    "model_context": "You are an assistant that helps extract and interpret information from PDF reports. The process involves reading the text from a PDF document and then answering specific questions based on that extracted text. For this task, you are provided with the text extracted from the PDF and a user question. Your goal is to use the context of the extracted text to provide a meaningful and accurate answer to the user's question in json format and also include the snippet of where the answer came from. If the answer is not available or it is unclear, just output Data Not Available in answer and snippet. Strictly follow the json format with keys as question, answer and snippet without deviation."
+}
